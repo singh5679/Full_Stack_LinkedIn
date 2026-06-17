@@ -30,8 +30,8 @@ post http://localhost:9080/update_profile_data HTTP/1.1
 Content-Type: application/json
 
 {
-   "token": "888bd8d6c18aac247801f0b9d232bc9d5ccd0e5bc66bce00ab302340e451e01a",
-   "bio": "Engineer with 2+ years of experience in software development.",
+   "token": "61a2fa9a6e8f0bf6cf7105f565591a07b1c2bcffd8a08f8e9aef9e48bd399724",
+   "bio": " i am shamsh Engineer with 2+ years of experience in software development.",
    "currentPost": "CTO",
    "pastWork": [
       {

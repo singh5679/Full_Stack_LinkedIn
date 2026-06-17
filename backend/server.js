@@ -9,6 +9,18 @@ dotenv.config();
 
 const app = express();
 
+// ❌ REMOVE this
+// app.use(cors());
+
+// ✅ REPLACE with this
+// app.use(cors({
+//   origin: [
+//     'http://localhost:3000',
+//     'http://10.65.153.21.3000'
+//   ],
+//   credentials: true
+// }));
+
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
